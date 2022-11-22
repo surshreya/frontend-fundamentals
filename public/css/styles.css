@@ -1,0 +1,32 @@
+.body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.heading {
+  color: rgb(33, 32, 32);
+  text-align: center;
+  border-bottom: 1px solid #777;
+}
+
+.list {
+  margin: 50px;
+}
+
+.item {
+  list-style: decimal;
+  text-decoration: none;
+}
+
+.item a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(1, 0, 0);
+}
