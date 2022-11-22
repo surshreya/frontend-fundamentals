@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.4;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.product {
+  max-width: 800px;
+  margin: 50px auto;
+  border: 3px solid rgb(25, 23, 23);
+  position: relative;
+}
+
+.product::after {
+  position: absolute;
+  content: "SALE";
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  color: aliceblue;
+  background-color: rgb(188, 55, 55);
+  letter-spacing: 2px;
+  top: -20px;
+  left: -30px;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(243, 243, 243);
+  margin: 20px 0px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.shipping {
+  font-size: 14px;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.description {
+  margin: 20px 0px 5px 0px;
+}
+
+.more-info:link,
+.more-info:visited {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  color: black;
+  text-decoration: none;
+}
+
+.colors {
+  margin: 10px 0px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.color-red {
+  background-color: rgb(169, 63, 63);
+}
+
+.color-blue {
+  background-color: rgb(92, 92, 234);
+}
+
+.color-violet {
+  background-color: blueviolet;
+}
+
+.color-beige {
+  background-color: bisque;
+}
+
+.color-golden {
+  background-color: goldenrod;
+}
+
+.color-black {
+  background-color: rgb(39, 35, 35);
+}
+
+.details-title {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  padding-bottom: 10px;
+}
+
+.add-to-cart {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  background-color: rgb(41, 39, 39);
+}
+
+.add-to-cart:hover {
+  color: rgb(41, 39, 39);
+  background-color: whitesmoke;
+  border: none;
+}
