@@ -20,6 +20,7 @@
 .item {
   list-style: decimal;
   text-decoration: none;
+  padding-top: 20px;
 }
 
 .item a:visited,
