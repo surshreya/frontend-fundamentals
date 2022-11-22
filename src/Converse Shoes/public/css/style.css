@@ -35,6 +35,12 @@ body {
   margin: 20px 0px;
 }
 
+.product-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .price {
   font-size: 20px;
   font-weight: bolder;
@@ -49,6 +55,7 @@ body {
 
 .description {
   margin: 20px 0px 5px 0px;
+  flex: 1;
 }
 
 .more-info:link,
@@ -65,13 +72,14 @@ body {
 
 .colors {
   margin: 10px 0px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .color {
   width: 30px;
   height: 30px;
   margin-right: 5px;
-  display: inline-block;
 }
 
 .color-red {
@@ -122,10 +130,16 @@ body {
   text-transform: uppercase;
   color: whitesmoke;
   background-color: rgb(41, 39, 39);
+  margin-top: 10px;
 }
 
 .add-to-cart:hover {
   color: rgb(41, 39, 39);
   background-color: whitesmoke;
   border: none;
+}
+
+.box-container {
+  display: flex;
+  gap: 20px;
 }
