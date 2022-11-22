@@ -9,6 +9,7 @@ body {
   line-height: 1.2;
   color: #444;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 /*
@@ -48,6 +49,15 @@ a:active {
 
 .nav-menu a:hover {
   font-weight: bolder;
+}
+
+.like {
+  position: absolute;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  bottom: 20px;
+  right: 50px;
 }
 
 .article-header {
