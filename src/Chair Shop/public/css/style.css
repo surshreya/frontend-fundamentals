@@ -7,11 +7,15 @@ FONT SIZE SYSTEM (px)
 */
 
 /*
-Main color - #087f5b
-Shades - #0ca678
-Grey - #343a40
-Grey shade - #495057
+COLOR SYSTEM
+
+MAIN - #087f5b
+SHADE - #0ca678
+GREY - #343a40
+SHADE - #495057
+
 */
+
 * {
   margin: 0;
   padding: 0;
@@ -117,6 +121,11 @@ header {
 /*
     FEATURE STYLES
 */
+.feature-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}
 
 .feature-title {
   font-size: 20px;
@@ -175,6 +184,9 @@ header {
 }
 
 .chair-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 24px;
 }
 
@@ -188,6 +200,11 @@ header {
   font-size: 20px;
 }
 
+.chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}
 /*
     FOOTER STYLES
 */
