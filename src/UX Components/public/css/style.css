@@ -1,0 +1,104 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+COLOR SYSTEM
+
+MAIN - #087f5b
+SHADE - #0ca678
+GREY - #343a40
+SHADE - #495057
+#ced4da
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.accordion {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.post {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  margin: 24px;
+}
+
+.index {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ced4da;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.expand {
+  width: 24px;
+  height: 24px;
+  stroke: #ced4da;
+  stroke-width: 3px;
+}
+
+.hidden-box {
+  grid-column: 2;
+  display: none;
+}
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hidden-box ul {
+  color: #868e96;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.open {
+  border-top: 3px solid #087f5b;
+}
+
+.open .hidden-box {
+  display: block;
+}
+
+.open .index,
+.open .title {
+  color: #087f5b;
+}
+
+.open .expand {
+  stroke: #087f5b;
+}
