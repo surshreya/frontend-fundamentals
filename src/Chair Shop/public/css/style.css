@@ -77,14 +77,14 @@ body {
 /* ------------------------ */
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 96px;
 }
 
 h1 {
   font-size: 44px;
   line-height: 1;
   letter-spacing: -1px;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 h2 {
@@ -110,7 +110,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .header-text-box {
@@ -128,11 +128,12 @@ header {
   stroke: #087f5b;
   width: 24px;
   height: 24px;
+  margin-bottom: 24px;
 }
 
 .feature-title {
   font-size: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .feature-text {
@@ -153,11 +154,13 @@ header {
 .testimonial-box {
   grid-column: 2/-1;
   align-self: center;
+  color: #c3fae8;
 }
 
 .testimonial-box h3 {
   font-size: 24px;
   margin-bottom: 24px;
+  color: #e6fcf5;
 }
 
 .testimonial-text {
