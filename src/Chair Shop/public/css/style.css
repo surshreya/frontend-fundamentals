@@ -16,7 +16,7 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -39,11 +39,21 @@ section {
 }
 
 h1 {
+  font-size: 44px;
+  line-height: 1;
+  letter-spacing: -1px;
   margin-bottom: 24px;
 }
 
 h2 {
+  font-size: 36px;
+  letter-spacing: -1px;
   margin-bottom: 48px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 img {
@@ -73,9 +83,14 @@ header {
 */
 
 .feature-title {
+  font-size: 20px;
   margin-bottom: 24px;
 }
 
+.feature-text {
+  font-size: 18px;
+  line-height: 1.6;
+}
 /*
     TESTIMONIAL STYLES
 */
@@ -84,15 +99,21 @@ header {
   align-self: center;
 }
 
-.testimonial-box h2 {
+.testimonial-box h3 {
+  font-size: 24px;
   margin-bottom: 24px;
 }
 
 .testimonial-text {
   margin-bottom: 24px;
   font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
+.testimonial-author {
+  font-size: 16px;
+}
 /*
     BESTSELLER STYLES
 */
@@ -101,10 +122,12 @@ header {
 }
 
 .chair-box h3 {
+  font-size: 20px;
   margin-bottom: 24px;
 }
 
 .chair-details {
+  font-size: 16px;
   list-style: none;
   margin-bottom: 24px;
 }
@@ -120,6 +143,7 @@ header {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 /*
@@ -127,5 +151,6 @@ header {
 */
 
 footer {
+  font-size: 14px;
   margin-bottom: 48px;
 }
