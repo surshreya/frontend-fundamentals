@@ -33,16 +33,16 @@ body {
   display: grid;
   grid-template-columns: auto 400px 1fr 250px;
   grid-template-rows: 80px 1fr;
+
+  font-size: 24px;
+  font-weight: bold;
 }
 
 nav {
   background-color: #087f5b;
   color: whitesmoke;
   grid-row: 1/-1;
-
   padding: 32px;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 menu {
@@ -81,7 +81,6 @@ aside {
 section,
 aside {
   background-color: #f1f3f5;
-  font-size: 24px;
 }
 
 section {
